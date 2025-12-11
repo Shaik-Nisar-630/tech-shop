@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   
-  if (cartItemsContainer) {
+  if (cartItemsContainer) {  
     cartItemsContainer.addEventListener("click", (e) => {
       const idx = e.target.dataset.index || e.target.closest(".remove-btn")?.dataset.index;
       if (idx === undefined) return;
