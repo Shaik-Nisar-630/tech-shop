@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ----------------- 🛒 Cart Quantity & Remove -----------------
+  
   if (cartItemsContainer) {
     cartItemsContainer.addEventListener("click", (e) => {
       const idx = e.target.dataset.index || e.target.closest(".remove-btn")?.dataset.index;
